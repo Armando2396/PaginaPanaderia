@@ -12,5 +12,5 @@ for (let i = 0; i<imagenes.length; i++){
     });
 }
 boton.addEventListener('click', function(){
-    modal.classList.toggle("modal--open");//le quetamos la clase al modal
+    modal.classList.toggle("modal--open");//le quitamos la clase al modal para que se ponga invisible
 });
